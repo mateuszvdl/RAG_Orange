@@ -32,8 +32,8 @@ Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large La
 │   └── 02_rag_pipeline.ipynb
 ├── .env                    # Zmienne środowiskowe i klucze API (nieśledzone przez Git)
 ├── .gitignore              # Reguły ignorowania plików dla Gita
-├── requirements.txt        # Zależności projektu
-└── README.md               # Dokumentacja
+├── README.md               # Dokumentacja
+└── requirements.txt        # Zależności projektu
 ```
 
 ## ⚙️ Uruchomienie lokalne
