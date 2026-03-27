@@ -25,7 +25,7 @@ Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large La
 
 ## 📁 Struktura projektu
 
-\`\`\`text
+```text
 ├── data/                   # Przechowuje pobrane pliki CSV z Reddita
 ├── notebooks/              # Pliki z kodem Jupyter Notebook
 │   ├── 01_reddit_scraper.ipynb
@@ -34,39 +34,39 @@ Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large La
 ├── .gitignore              # Reguły ignorowania plików dla Gita
 ├── requirements.txt        # Zależności projektu
 └── README.md               # Dokumentacja
-\`\`\`
+```
 
 ## ⚙️ Uruchomienie lokalne
 
 1. **Sklonuj repozytorium:**
-   \`\`\`bash
-   git clone https://github.com/TwojaNazwaUzytkownika/RAG_Orange.git
-   cd RAG_Orange
-   \`\`\`
+```bash
+git clone [https://github.com/mateuszvdl/RAG_Orange.git](https://github.com/mateuszvdl/RAG_Orange.git)
+cd RAG_Orange
+```
 
 2. **Utwórz i aktywuj wirtualne środowisko:**
-   \`\`\`bash
-   # Mac/Linux:
-   python3 -m venv venv
-   source venv/bin/activate
-   
-   # Windows:
-   python -m venv venv
-   venv\\Scripts\\activate
-   \`\`\`
+```bash
+# Mac/Linux:
+python3 -m venv venv
+source venv/bin/activate
+
+# Windows:
+python -m venv venv
+venv\Scripts\activate
+```
 
 3. **Zainstaluj wymagane pakiety:**
-   \`\`\`bash
-   pip install -r requirements.txt
-   \`\`\`
+```bash
+pip install -r requirements.txt
+```
 
 4. **Skonfiguruj zmienne środowiskowe:**
-   Utwórz plik `.env` w głównym katalogu projektu i dodaj swoje klucze API:
-   \`\`\`env
-   REDDIT_CLIENT_ID=twoj_klucz_id
-   REDDIT_CLIENT_SECRET=twoj_klucz_secret
-   GROQ_API_KEY=twoj_klucz_groq
-   \`\`\`
+Utwórz plik `.env` w głównym katalogu projektu i dodaj swoje klucze API:
+```env
+REDDIT_CLIENT_ID=twoj_klucz_id
+REDDIT_CLIENT_SECRET=twoj_klucz_secret
+GROQ_API_KEY=twoj_klucz_groq
+```
 
 5. **Uruchomienie:**
-   Otwórz projekt w VS Code, wybierz jako kernel środowisko `venv` i uruchamiaj notatniki w kolejności (najpierw pobranie danych, potem chatbot).
+Otwórz projekt w VS Code, wybierz jako kernel środowisko `venv` i uruchamiaj notatniki w kolejności (najpierw pobranie danych, potem chatbot).
