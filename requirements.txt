@@ -1,0 +1,16 @@
+ipykernel
+jupyter
+praw
+pandas
+regex
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+python-dotenv
+datasets 
+kaggle 
+numpy 
+nltk 
