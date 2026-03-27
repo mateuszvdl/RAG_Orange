@@ -1,8 +1,8 @@
-# Reddit Data Analyzer & RAG Chatbot 🤖📊
+# Reddit Data Analyzer & RAG Chatbot 
 
 Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large Language Models) do analizy nastrojów i opinii użytkowników platformy Reddit. Składa się z dwóch głównych modułów: narzędzia do scrapowania danych oraz inteligentnego chatbota opartego na architekturze RAG (Retrieval-Augmented Generation).
 
-## 🚀 Funkcjonalności
+## Funkcjonalności
 
 1. **Reddit Scraper (`01_reddit_scraper.ipynb`)**
    * Pobieranie komentarzy z wybranego wątku za pomocą API Reddit (PRAW).
@@ -16,14 +16,14 @@ Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large La
    * Przechowywanie danych w lokalnej bazie wektorowej **FAISS** w celu szybkiego wyszukiwania semantycznego.
    * Integracja z LLM (przez **Groq API** z wykorzystaniem **LangChain**) pozwalająca na zadawanie pytań w języku naturalnym o wyodrębniony kontekst z Reddita.
 
-## 🛠️ Technologie
+## Technologie
 * **Język:** Python
 * **LLM & NLP:** LangChain, Hugging Face, Groq API (Llama), NLTK / Regex
 * **Baza Wektorowa:** FAISS
 * **Analiza Danych:** Pandas, PRAW (Reddit API)
 * **Środowisko:** Jupyter Notebook, środowisko wirtualne (venv), python-dotenv
 
-## 📁 Struktura projektu
+## Struktura projektu
 
 ```text
 ├── data/                   # Przechowuje pobrane pliki CSV z Reddita
@@ -36,7 +36,7 @@ Projekt łączący techniki NLP (Natural Language Processing) oraz LLM (Large La
 └── requirements.txt        # Zależności projektu
 ```
 
-## ⚙️ Uruchomienie lokalne
+## Uruchomienie lokalne
 
 1. **Sklonuj repozytorium:**
 ```bash
